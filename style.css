@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif:wght@400&family=Outfit:wght@400;600;700&display=swap');
+  body {
+    background-color: hsl(30, 54%, 90%);
+    color: hsl(30, 10%, 34%);
+    font-family: 'Outfit', serif;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 1px;
+    margin: 1px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  h1 {
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.1;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    
+  }
+  .card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 1px;
+    padding-top: 25px;
+    padding-inline: 20px;
+  }
+  .time {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+    padding-inline: 4px;
+    margin: 2px;
+  }
+  .time li{
+    padding: 17px;
+  }
+  h2, li::marker, td {
+    color: hsl(14, 45%, 36%);
+  }
+  span {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(24, 5%, 18%);
+    font-weight: 600;
+  }
+  #time {
+    color: hsl(332, 51%, 32%);
+    padding: 10px;
+  }
+  table {
+    border-collapse: collapse;
+    padding: 10px;
+    width: 100%;
+  }
+  tr.content  {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 30px;
+    margin: 20px;
+  }
+  th{
+    color: hsl(30, 10%, 34%);
+    padding: 1px;
+    margin: 1px;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+    .attribution { 
+      font-size: 0.6875rem; text-align: center;
+    }
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+    @media (min-width: 768px){
+      body {
+        margin: 20px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+      .card {
+        max-width: 736px;
+        border-radius: 15px;
+        padding-block: 20px;
+        padding-inline: 20px;
+        margin-block: 10px;
+        margin-inline: 10px;
+      }
+      img {
+        border-radius: 15px 15px 0 0;
+      }
+    }
